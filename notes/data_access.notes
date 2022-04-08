@@ -1,0 +1,11 @@
+ssh centors7.slac.stanford.edu
+ssh -Y centos7.slac.stanford.edu
+ssh lcls-prod02
+ssh -X physics@lcls-srv01
+## choose option 51-coffee ##
+cd /u1/lcls/matlab/data/2021/2021-06/2021-06-21/
+rsync -ruv ./GDET-1-2021-06-21-2* dtn01.slac.stanford.edu:/nfs/slac/staas/fs1/g/coffee_group/stefan-GDET_data/
+## whew, maybe that is challenging... seems not to be working. ##
+
+Seems we need to get used to running inside physics@lcls-srv01:~/coffee/
+and you have to use python2 or ask auralee about conda
