@@ -24,5 +24,5 @@ The map of hte 120 shots from one of the 2022 runs is...
 ![plot](./figs/GDETsforStefan.png)
 
 ... and the power spectra (in this case photon energy is over 10keV...  
-![plot](./figs/GDETsforStefan.png)
+![plot](./figs/freqsForStefan.png)
 
